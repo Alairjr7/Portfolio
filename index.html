@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="js/script.js" defer></script>
+    <title>Portfólio</title>
+  </head>
+  <body>
+    <header>
+      <div class="header-container">
+        <img src="assets/Logo-Portifolio.png" alt="Logo Portfólio" />
+
+        <nav class="navbar-desktop">
+          <ul>
+            <li><a href="#home" class="active">Inicio</a></li>
+            <li><a href="#about-me">Sobre Mim</a></li>
+            <li><a href="#projects">Projetos</a></li>
+            <li><a href="#contact">Contato</a></li>
+          </ul>
+        </nav>
+        <a href="assets/Curriculo.pdf" class="button-desktop" download
+          ><button type="button">Download CV</button>
+        </a>
+        <img
+          width="30"
+          height="30"
+          src="https://img.icons8.com/ios-filled/30/fd6f00/menu--v6.png"
+          alt="menu--v6"
+          class="menu"
+          id="menu"
+        />
+      </div>
+
+      <div class="menu-mobile" id="menu-mobile">
+        <nav class="navbar-mobile">
+          <ul>
+            <li><a href="#home" class="active">Inicio</a></li>
+            <li><a href="#about-me">Sobre Mim</a></li>
+            <li><a href="#projects">Projetos</a></li>
+            <li><a href="#contact">Contato</a></li>
+          </ul>
+        </nav>
+        <a href="assets/Curriculo.pdf" download
+          ><button type="button">Download CV</button>
+        </a>
+      </div>
+    </header>
+    <main>
+      <section id="home" class="home">
+        <div class="home-presentation">
+          <p style="font-size: 24px">Olá! Sou</p>
+          <p style="font-size: 32px; color: #fd6f00; font-weight: bold">
+            Alair Júnior
+          </p>
+
+          <div class="title-container">
+            <h1>Programador</h1>
+            <h2 class="frontend-h2">Frontend</h2>
+          </div>
+
+          <p>
+            Neste portfólio, você encontrará projetos de desenvolvimento
+            front-end que combinam design atraente e funcionalidade. Cada
+            trabalho é feito para oferecer uma experiência fácil e agradável ao
+            usuário. Sinta-se à vontade para explorar e conhecer meu estilo de
+            trabalho!
+          </p>
+          <div class="home-container-button">
+            <a href="#about-me">
+              <button type="button">Comece a explorar</button>
+            </a>
+          </div>
+        </div>
+        <div class="home-container-img">
+          <img src="assets/home-img.png" alt="Imagem Home" />
+          <div class="home-sociais">
+            <a href=""
+              ><img
+                width="32"
+                height="32"
+                src="https://img.icons8.com/material-rounded/32/FFFFFF/github.png"
+                alt="github"
+            /></a>
+            <a href=""
+              ><img
+                width="32"
+                height="32"
+                src="https://img.icons8.com/ios-glyphs/32/FFFFFF/linkedin.png"
+                alt="linkedin"
+            /></a>
+            <a href=""
+              ><img
+                width="32"
+                height="32"
+                src="https://img.icons8.com/ios/32/FFFFFF/instagram-new.png"
+                alt="instagram-new"
+            /></a>
+          </div>
+        </div>
+      </section>
+      <section id="about-me" class="about-me">
+        <img src="assets/about-img.png" alt="Imagem about-me" />
+        <div class="about-container">
+          <h2>Sobre Mim</h2>
+          <p>
+            Formado em um curso técnico de informática, atualmente estou no
+            primeiro semestre de Análise e Desenvolvimento de Sistemas na PUC
+            Virtual. Minha jornada na tecnologia começou cedo e, desde então,
+            tenho me dedicado a aprimorar minhas habilidades em desenvolvimento
+            front-end. Estou sempre em busca de novos desafios e aprendizados,
+            com o objetivo de criar soluções inovadoras que façam a diferença
+          </p>
+          <div class="about-container-button">
+            <a href="https://www.linkedin.com/in/alaairjrr/" target="_blank">
+              <button type="button">Saiba Mais</button>
+            </a>
+          </div>
+        </div>
+      </section>
+      <section id="projects" class="projects">
+        <h3>Meus Projetos</h3>
+        <p>
+          Nesta seção, apresento alguns dos meus projetos, onde pude explorar
+          diferentes tecnologias e aprender na prática. Eles representam meu
+          crescimento como desenvolvedor e meu compromisso em sempre buscar
+          soluções eficientes e inovadoras.
+        </p>
+        <div class="projects-buttons">
+          <button type="button" data-category="all" class="active">All</button>
+          <button type="button" data-category="frontend">Frontend</button>
+          <button type="button" data-category="csharp">C#</button>
+          <button type="button" data-category="estudos">Estudos</button>
+        </div>
+
+        <div class="projects-container">
+          <div class="project-item frontend">
+            <img src="assets/codeburguer.png" alt="Projeto Frontend" />
+            <p>Frontend</p>
+            <a href="https://codeburguer-blush.vercel.app/">
+              <h4>Landing Page para uma Hamburgueria Ficticia</h4>
+            </a>
+          </div>
+
+          <div class="project-item frontend">
+            <img src="assets/portfolio.png" alt="Projeto Frontend" />
+            <p>Frontend</p>
+            <h4>Landing Page do Meu Portfólio</h4>
+          </div>
+
+          <!-- <div class="project-item csharp">
+            <img
+              src="assets/codeburguer.png"
+              alt="Projeto em C#"
+            />
+            <p>C#</p>
+            <h4>API RESTful com .NET</h4>
+          </div> -->
+
+          <div class="project-item csharp">
+            <img src="assets/atencao.png" alt="Projeto em C#" />
+            <p>C#</p>
+            <h4>API RESTful com .NET</h4>
+          </div>
+
+          <div class="project-item estudos">
+            <img src="assets/playermusic.png" alt="Projeto de Estudo" />
+            <p>Estudos</p>
+            <a href="https://player-music-gw6nw6c9f-alairjr7s-projects.vercel.app/">
+              <h4>Mini Player de Música</h4>
+            </a>
+          </div>
+
+          <div class="project-item estudos">
+            <img src="assets/tempo.png" alt="Projeto de Estudo" />
+            <p>Estudos</p>
+            <a href="https://clima-alairjr7s-projects.vercel.app/">
+              <h4>Previsão do Tempo: Consulta em Tempo Real via API </h4>
+            </a>
+          </div>
+        </div>
+      </section>
+      <section id="contact" class="contact">
+        <h3>Vamos nos Conectar!</h3>
+        <p>Siga-me nas redes sociais e entre em contato quando quiser.</p>
+
+        <div class="social-links">
+          <a href="https://www.instagram.com/alaairjr_" target="_blank">
+            <img
+              width="50"
+              height="50"
+              src="https://img.icons8.com/fluency/50/instagram-new.png"
+              alt="instagram"
+            />
+          </a>
+          <a href="https://www.linkedin.com/in/alaairjrr/" target="_blank">
+            <img
+              width="50"
+              height="50"
+              src="https://img.icons8.com/color/50/linkedin.png"
+              alt="linkedin"
+            />
+          </a>
+          <a
+            href="https://discordapp.com/users/394488712097955841"
+            target="_blank"
+          >
+            <img
+              width="50"
+              height="50"
+              src="https://img.icons8.com/ios-filled/50/7289da/discord-logo.png"
+              alt="discord"
+            />
+          </a>
+        </div>
+      </section>
+      <footer>
+        <img src="assets/Logo-Portifolio.png" alt="" />
+        <nav class="navbar-desktop">
+          <ul>
+            <li><a href="#home" class="active">Inicio</a></li>
+            <li><a href="#about-me">Sobre Mim</a></li>
+            <li><a href="#projects">Projetos</a></li>
+            <li><a href="#contact">Contato</a></li>
+          </ul>
+        </nav>
+        <div class="rights">
+          <p>© 2024 Alair Júnior Todos os direitos reservados</p>
+        </div>
+      </footer>
+    </main>
+  </body>
+</html>
